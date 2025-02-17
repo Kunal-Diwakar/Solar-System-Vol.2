@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planets | kd.codes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="w-full">
+      <div
+        class="w-full h-screen absolute top-0 font-['Gilroy-Medium'] left-0 z-[2] text-white"
+      >
+        <div
+          class="absolute text-center -top-8 md:top-[6%] left-1/2 -translate-x-1/2"
+        >
+          <div class="w-full h-[9em] overflow-hidden font-['Bellina']">
+            <h1 class="text-6xl md:text-9xl leading-[3.8] md:leading-[1.3] h-[100%] heading font-light tracking-tight">
+              Earth
+            </h1>
+            <h1 class="text-6xl md:text-9xl leading-[3.8] md:leading-[1.3] h-[100%] heading font-light tracking-tight">
+              Scilla
+            </h1>
+            <h1 class="text-6xl md:text-9xl leading-[3.8] md:leading-[1.3] h-[100%] heading font-light tracking-tight">
+              Volcanic
+            </h1>
+            <h1 class="text-6xl md:text-9xl leading-[3.8] md:leading-[1.3] h-[100%] heading font-light tracking-tight">
+              Venus
+            </h1>
+          </div>
+          <p class="text-xs md:text-sm">
+            Some planets of our solar system revolving here.
+          </p>
+          <div
+            class="w-96 md:w-[28rem] h-px bg-gradient-to-r from-transparent via-white to-transparent mt-4"
+          ></div>
+        </div>
+      </div>
+      <canvas class="h-0" id="canvas"></canvas>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

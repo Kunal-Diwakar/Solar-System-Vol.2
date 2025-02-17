@@ -1,0 +1,3 @@
+-create vite application
+-tailwind css
+-npm i three
